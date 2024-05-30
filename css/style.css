@@ -64,15 +64,12 @@ body {
 }
 
 /* menu settings  */
-.menu-settings {
+.menu-settings-headere {
     list-style-type: none;
 }
 
-.menu-settings li {
+.menu-settings-header li {
     display: inline-block;
-}
-
-li {
     margin: 0px 15px;
 }
 
@@ -123,12 +120,69 @@ li a {
     margin-bottom: 40px;
 }
 
-p {
+/* business plan */
+
+.initial-page {
     padding-top: 30px;
     padding-bottom: 45px;
 }
 
-.fs-15 span {
+.purpose-use {
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid #d2d2d5;
+    margin-bottom: 35px;
+}
+
+.plan-info {
+    padding: 0px 30px;
+}
+
+.plan-info h3 {
+    padding-bottom: 20px;
+}
+
+.month-plan {
+    padding-top: 10px;
+    padding-bottom: 50px;    
+}
+
+.plan-advantages {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+}
+
+.plan-advantages li {
+    margin: 30px 0px;
+}   
+
+
+li .fa-solid {
+    margin-right: 5px;
+}
+
+.free-try {
+    margin-top: 65px;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin: 40px 0;
+    width: 25%;
+}
+
+.fa-check {
+    color:#0061ff;
+}
+
+
+.fs-20 span {
     padding: 15px;
 }
 
@@ -160,14 +214,18 @@ p {
 }
 
 .fs-15 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .fs-20 {
     font-size: 20px;
 }
 
-.fs-60 {
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-45 {
     font-size: 45px;
 }
 
@@ -179,6 +237,14 @@ p {
     font-size: 50px;
 } 
 
+.blue {
+    color: #4040f2;
+}
+
 .dashed-black {
     border: 1px solid black;
+}
+
+.dashed-grey {
+    border: 1px solid #d2d2d5;
 }
