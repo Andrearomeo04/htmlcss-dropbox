@@ -13,6 +13,10 @@ body {
     max-width: 100%;
 } 
 
+.container-full-partners {
+    width: 100vw;
+}
+
 .container-lg {
     max-width: 1200px;
     margin: 0 auto;
@@ -62,6 +66,10 @@ body {
 
 .images {
     width: 100%;
+}
+
+.images-btm {
+    width: 50%;
 }
 
 /* header section  */
@@ -152,6 +160,15 @@ li a {
 
 .col-33 {
     width: calc((100% - 100px) / 3);
+}
+
+.col-33-partner-img {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* business plan */
@@ -267,6 +284,15 @@ li .fa-solid {
 
 .col-75 h2 {
     padding-bottom: 60px;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 /* color text-size bg-color  */
