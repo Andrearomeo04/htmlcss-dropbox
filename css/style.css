@@ -48,6 +48,10 @@ body {
     padding-top: 25px;
 }
 
+.py-50 {
+    padding-top: 75px;
+}
+
 .py-150 {
     padding-top: 150px;
 }
@@ -140,8 +144,7 @@ li a {
 }
 
 .col-33 {
-    width: calc(100% / 3);
-    height: 450px;
+    width: calc((100% - 100px) / 3);
 }
 
 /* business plan */
@@ -248,6 +251,11 @@ li .fa-solid {
 .white-button {
     border: 1px solid black;
     padding: 10px;
+}
+
+.content-explanation p:nth-child(3) {
+    padding-top: 25px;
+    line-height: 25px;
 }
 
 /* color text-size bg-color  */
