@@ -120,6 +120,7 @@ li a {
 
 .col-60 {
     width: 60%;
+    margin-bottom: 130px;
 }
 
 .col-40 {
@@ -132,10 +133,15 @@ li a {
     height: 450px;
 }
 
-.col-33 {
+.col-33-business-plan {
     width: calc((100% - 100px) / 3);
     height: 1000px;
     margin-bottom: 40px;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    height: 450px;
 }
 
 /* business plan */
