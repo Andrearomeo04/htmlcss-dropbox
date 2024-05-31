@@ -64,6 +64,14 @@ body {
     padding-top: 150px;
 }
 
+.pd-120 {
+    padding: 120px 0px;
+}
+
+.my-150 {
+    margin-bottom: 150px;
+}
+
 .gap-50 {
     gap: 50px;
 }
@@ -115,6 +123,11 @@ li a {
     margin-bottom: 30px;
 }
 
+.col-100-bottom {
+    width: 100%;
+    height: 450px;
+}
+
 .col-75 {
     width: 75%;
     height: 200px;
@@ -146,19 +159,8 @@ li a {
     margin-bottom: 130px;
 }
 
-.col-50-left {
-    width: 50%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-}
-
-.col-50-right {
-    width: 50%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.col-100-blue-background {
+    width: 100%;
     position: relative;
 }
 
@@ -354,7 +356,7 @@ li .fa-solid {
 .white-free-try {
     padding: 10px 40px;
     position: absolute;
-    top: 110px;
+    top: 130px;
     right: 0;
 }
 
@@ -367,10 +369,9 @@ li .fa-solid {
 }
 
 
-.bg-skyblue {
+
+.bg-ligh-blue-full {
     background-color: #b4d0e7;
-    padding-top: 80px;
-    padding-bottom: 0px;
 }
 
 .fs-15 {
@@ -415,6 +416,16 @@ li .fa-solid {
 
 .blue {
     color: #4040f2;
+}
+
+.light-blue-head {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.light-blue-bottom {
+    max-width: 100%;
 }
 
 .bg-dark-blue {
