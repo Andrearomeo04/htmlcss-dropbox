@@ -46,6 +46,10 @@ body {
     padding: 50px; 
 }
 
+.central-content {
+    padding: 50px;
+}
+
 /* utility class */
 
 .py-25 {
@@ -167,8 +171,6 @@ li a {
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 /* business plan */
@@ -292,8 +294,39 @@ li .fa-solid {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
 }
+
+.box-out {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.box-green {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2d39b ;
+}
+
+.central-content hr {
+    width: 25%;
+}
+
+.central-content img {
+    padding-bottom: 35px;
+}
+
+.central-content p:nth-child(3) {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
 
 /* color text-size bg-color  */
 .blue-button {
@@ -352,8 +385,52 @@ li .fa-solid {
     font-size: 50px;
 } 
 
+.svg-white {
+    filter: invert(100%);
+}
+
 .blue {
     color: #4040f2;
+}
+
+.dark-blue {
+    background-color: #0d2481;
+}
+
+.maroon {
+    background-color: #61082b;
+}
+
+.dark-red {
+    background-color: #d5001f;
+}
+
+.red {
+    background-color: #ff1c1c;
+}
+
+.skyblue {
+    background-color: #0093ce;
+}
+
+.white-smoke {
+    background-color: #f5f5f5;
+}
+
+.light-blue {
+    background-color: #b4d0e7;
+}
+
+.yellow {
+    background-color: #ffd830;
+}
+
+.light-green {
+    background-color: #d1e9cd;
+}
+
+.green {
+    background-color: #a2d39b;
 }
 
 .dashed-black {
