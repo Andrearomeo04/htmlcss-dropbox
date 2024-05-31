@@ -103,6 +103,13 @@ li a {
     margin-bottom: 30px;
 }
 
+.col-75 {
+    width: 75%;
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
 .col-100 h2 {
     padding-bottom: 60px;
 }
@@ -256,6 +263,10 @@ li .fa-solid {
 .content-explanation p:nth-child(3) {
     padding-top: 25px;
     line-height: 25px;
+}
+
+.col-75 h2 {
+    padding-bottom: 60px;
 }
 
 /* color text-size bg-color  */
