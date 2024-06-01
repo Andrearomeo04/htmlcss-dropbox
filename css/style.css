@@ -562,3 +562,7 @@ footer {
 .light-blue-bottom {
     max-width: 100%;
 }
+
+.dashed-grey {
+    border: 1px solid grey;
+}
