@@ -8,17 +8,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
 /* containers section  */
 .container-full {
     max-width: 100%;
 } 
 
-.container-full-partners {
+.container-full-clients {
     width: 100vw;
 }
 
 .container-lg {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -31,6 +32,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 /* content section  */
 .content {
@@ -49,6 +51,7 @@ body {
 .central-content {
     padding: 50px;
 }
+
 
 /* utility class */
 
@@ -72,6 +75,11 @@ body {
     margin-bottom: 150px;
 }
 
+.blue-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .gap-50 {
     gap: 50px;
 }
@@ -83,6 +91,7 @@ body {
 .images-btm {
     width: 50%;
 }
+
 
 /* header section  */
 .col-10 {
@@ -112,6 +121,8 @@ li a {
 
 /* main section  */
 
+
+/* col section  */
 .col-100-initial {
     width: 100%;
     height: 250px;
@@ -136,17 +147,6 @@ li a {
     padding: 45px 30px 45px 0;
 }
 
-p i {
-    margin-left: 350px;
-}
-
-.col-75 {
-    width: 75%;
-    height: 200px;
-    margin-top: 200px;
-    margin-bottom: 100px;
-}
-
 .col-100 h2 {
     padding-bottom: 60px;
 }
@@ -161,6 +161,20 @@ p i {
     margin-bottom: 200px;
 }
 
+.col-100-blue-background {
+    width: 100%;
+    position: relative;
+}
+
+
+.col-75 {
+    width: 75%;
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
 .col-65 {
     width: 65%;
     height: 450px;
@@ -171,10 +185,6 @@ p i {
     margin-bottom: 130px;
 }
 
-.col-100-blue-background {
-    width: 100%;
-    position: relative;
-}
 
 .col-40 {
     width: 40%;
@@ -196,15 +206,32 @@ p i {
     width: calc((100% - 100px) / 3);
 }
 
-.col-33-partner-img {
+.col-33-clients {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
-/* business plan */
+.col-20-footer {
+    width: 20%;
+    height: 400px;
+}
+/* col section end  */
 
+
+/* title section  */
+.jumbo img {
+    width: 880px;
+    padding-top: 30px;
+}
+
+.fs-20 span {
+    padding: 15px;
+}
+
+
+/* business plan section */
 .initial-page {
     padding-top: 30px;
     padding-bottom: 45px;
@@ -220,7 +247,7 @@ p i {
 }
 
 .plan-info {
-    padding: 0px 30px;
+    padding: 30px 30px;
 }
 
 .plan-info h3 {
@@ -266,21 +293,10 @@ li .fa-solid {
     color:#0061ff;
 }
 
+/* business plan section end  */
 
-.fs-20 span {
-    padding: 15px;
-}
 
-.blue-button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.jumbo img {
-    width: 880px;
-    padding-top: 30px;
-}
-
+/* contact team section  */
 .contact-team {
     padding: 40px 30px;
     position: relative;
@@ -313,11 +329,10 @@ li .fa-solid {
     padding-top: 25px;
     line-height: 25px;
 }
+/* contact team section end  */
 
-.col-75 h2 {
-    padding-bottom: 60px;
-}
 
+/* clients review section  */
 .box {
     width: 50%;
     height: 50%;
@@ -357,14 +372,16 @@ li .fa-solid {
     padding-bottom: 40px;
     line-height: 23px;
 }
+/* clients review section end  */
 
 
-/* color text-size bg-color  */
-.blue-button {
-    background-color: #0061ff;
-    color: #fff;
+/* find out clients section  */
+.col-75 h2 {
+    padding-bottom: 60px;
 }
 
+
+/* free try section  */
 .white-free-try {
     padding: 10px 40px;
     position: absolute;
@@ -372,20 +389,46 @@ li .fa-solid {
     right: 0;
 }
 
-.p-blue-button {
-    padding: 10px 35px;
+
+/* Q&A question section  */
+p i {
+    margin-left: 350px;
 }
 
-.p-head-button {
-    padding: 7px 15px;
+
+/* main section end  */
+
+
+/* footer  */ 
+footer {
+    background-color: black;
+    margin-top: 100px;
+    padding: 80px 80px 30px 80px;
 }
 
-
-
-.bg-ligh-blue-full {
-    background-color: #b4d0e7;
+.footer-info li a {
+    color: #fff;
 }
 
+.footer-info {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-info li {
+    margin: 20px 0px;
+}
+
+.col-20-footer hr {
+    margin: 70px 0px 40px 0px;
+    width: 50%;
+}
+/* footer section end  */
+
+
+/* color text-size bg-color  */
+
+/* font size section  */
 .fs-15 {
     font-size: 15px;
 }
@@ -418,28 +461,7 @@ li .fa-solid {
     font-size: 95px;
 }
 
-.arrow-down {
-    font-size: 50px;
-} 
-
-.svg-white {
-    filter: invert(100%);
-}
-
-.blue {
-    color: #4040f2;
-}
-
-.bg-light-blue-head {
-    padding-top: 80px;
-    padding-bottom: 20px;
-    max-width: 100%;
-}
-
-.light-blue-bottom {
-    max-width: 100%;
-}
-
+/* bg-colors section  */
 .bg-dark-blue {
     background-color: #0d2481;
 }
@@ -448,9 +470,6 @@ li .fa-solid {
     background-color: #61082b;
 }
 
-.maroon {
-    color: #61082b;
-}
 
 .bg-dark-red {
     background-color: #d5001f;
@@ -488,10 +507,58 @@ li .fa-solid {
     background-color: #a2d39b;
 }
 
-.dashed-black {
-    border: 1px solid black;
+.bg-ligh-blue-full {
+    background-color: #b4d0e7;
 }
 
-.dashed-grey {
-    border: 1px solid #d2d2d5;
+
+/* color section  */
+.maroon {
+    color: #61082b;
+}
+.white {
+    color: #fff;
+}
+
+.grey {
+    color: grey;
+}
+
+.blue {
+    color: #4040f2;
+}
+
+/* button settings section  */
+.p-blue-button {
+    padding: 10px 35px;
+}
+
+.p-head-button {
+    padding: 7px 15px;
+}
+
+.blue-button {
+    background-color: #0061ff;
+    color: #fff;
+}
+
+/* icon sections  */
+.arrow-down {
+    font-size: 50px;
+} 
+
+/* client review white img section  */
+.svg-white {
+    filter: grayscale(100) invert(100%) brightness(2);
+}
+
+/* bg-full-color  */
+.bg-light-blue-head {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.light-blue-bottom {
+    max-width: 100%;
 }
